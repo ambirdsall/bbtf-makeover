@@ -1,9 +1,31 @@
 html, body {
+    font-family: Palatino,Optima,Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif !important;
+    font-size: 97% !important;
     line-height: 1.4;
 }
 
+a {
+    font-family: Optima,Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif;
+}
+
 blockquote {
-    border-radius: 4px;
-    padding: 7px 6px 8px 25px;
+    background-color: #f8f7f7;
+    border-radius: 2px;
     color: #463f3f;
+    font-family: Optima,Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif !important;
+    padding: 7px 6px 8px 25px;
+}
+
+p {
+    line-height: 1.4 !important;
+}
+
+.codeblock {
+    max-width: 85vw;
+    overflow-x: scroll;
+}
+
+.content_box2 {
+    /* more newsstand/blogpen links are loaded than visible; that's silly */
+    overflow: scroll !important;
 }

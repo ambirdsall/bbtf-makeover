@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Modify CSS and HTML",
+  "version": "0.1.0",
+  "description": "Improve the looks of baseballthinkfactory.org",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": [
+      "http://www.baseballthinkfactory.org/*",
+      "https://www.baseballthinkfactory.org/*"
+    ]
+  }]
+}

@@ -1,0 +1,9 @@
+html, body {
+    line-height: 1.4;
+}
+
+blockquote {
+    border-radius: 4px;
+    padding: 7px 6px 8px 25px;
+    color: #463f3f;
+}

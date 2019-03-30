@@ -7,3 +7,5 @@ former so you can enjoy the latter with a little less eye strain.
 It's not intended to be an ambitious, wholesale redesign (though if you're into that sort of thing,
 pull requests are certainly welcome); the initial motivation was honestly just injecting
 `line-height: 1.4;` into the stylesheet.
+
+Licensed under the WTFPL. Do whatever the fuck you want with it.
